@@ -1,3 +1,9 @@
 .venv
 projectflow.txt
 src.egg-info
+notebook
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+logs
