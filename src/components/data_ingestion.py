@@ -72,8 +72,8 @@ class DataIngestion:
         except Exception as e:
             raise MyException(e, sys) from e
 
-    def initiate_data_ingestion(self) ->DataIngestionArtifact:
-        """
+    def initiate_data_ingestion(self) ->DataIngestionArtifact:  
+        """  
         Method Name :   initiate_data_ingestion
         Description :   This method initiates the data ingestion components of training pipeline 
         
